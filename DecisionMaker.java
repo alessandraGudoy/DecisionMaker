@@ -1,4 +1,9 @@
 
+/*
+ * DecisionMaker, makes difficult decisions for you
+ * @author Alessandra Gudoy
+ */
+
 public class DecisionMaker {
     public static void main(String[] args){
         System.out.println(generateTime());
