@@ -39,6 +39,10 @@ public class DecisionMaker {
         return ((int) (Math.random() * 100) % 2) == 0 ? "HEADS" : "TAILS";
     }
 
+    /*
+     * Returns an appetizer from Olive Garden
+     * @return string indicating which appetizer to eat
+     */
     public static String appetizer(){
         String dish = "";
 
@@ -74,6 +78,10 @@ public class DecisionMaker {
         return dish;
     }
 
+    /*
+     * Returns an entree from Olive Garden
+     * @return string indicating which entree to eat
+     */
     public static String entree(){
         String dish = "";
 
