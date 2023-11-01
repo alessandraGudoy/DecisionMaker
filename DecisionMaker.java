@@ -7,12 +7,8 @@ import java.util.Random;
 
 public class DecisionMaker {
     public static void main(String[] args){
-        // System.out.println(generateTime());
-        // System.out.println(anoBa());
-        // System.out.println(coinFlip());
-
-        System.out.println(appetizer());
-        System.out.println(entree());
+        String move = coinFlip().equals("HEADS") ? "MATH 321" : "ICS 212";
+        System.out.println("MOVE: " + move);
     }
 
     /*
